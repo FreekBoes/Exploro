@@ -1,0 +1,41 @@
+.button {
+    background-color: #fff;
+    border: none;
+    color: #6c757d;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+    font-weight: 700;
+    padding-left: 0px;
+}
+
+.button:hover {
+    color: #B6BF73;
+    /* Darker Green */
+}
+
+@media screen and (min-width: 992px) {
+    .button {
+        background-color: #ADBF21;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 50px;
+    }
+
+    .button:hover {
+        background-color: #B6BF73;
+        color: #fff;
+        /* Darker Green */
+    }
+}
