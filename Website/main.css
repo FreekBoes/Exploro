@@ -16,6 +16,14 @@
     /* Darker Green */
 }
 
+.card {
+    border-radius: 5%;
+}
+
+.label {
+    color: #B6BF73;
+}
+
 @media screen and (min-width: 992px) {
     .button {
         background-color: #ADBF21;
@@ -38,4 +46,5 @@
         color: #fff;
         /* Darker Green */
     }
+
 }
