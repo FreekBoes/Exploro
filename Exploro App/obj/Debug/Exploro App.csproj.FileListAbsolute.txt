@@ -1,0 +1,10 @@
+C:\Users\mathi\Downloads\Exploro App\bin\Debug\Exploro App.exe.config
+C:\Users\mathi\Downloads\Exploro App\bin\Debug\Exploro App.exe
+C:\Users\mathi\Downloads\Exploro App\bin\Debug\Exploro App.pdb
+C:\Users\mathi\Downloads\Exploro App\obj\Debug\Exploro App.csproj.AssemblyReference.cache
+C:\Users\mathi\Downloads\Exploro App\obj\Debug\Exploro_App.Form1.resources
+C:\Users\mathi\Downloads\Exploro App\obj\Debug\Exploro_App.Properties.Resources.resources
+C:\Users\mathi\Downloads\Exploro App\obj\Debug\Exploro App.csproj.GenerateResource.cache
+C:\Users\mathi\Downloads\Exploro App\obj\Debug\Exploro App.csproj.CoreCompileInputs.cache
+C:\Users\mathi\Downloads\Exploro App\obj\Debug\Exploro App.exe
+C:\Users\mathi\Downloads\Exploro App\obj\Debug\Exploro App.pdb
