@@ -31,7 +31,7 @@ namespace Exploro_App
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Close();
+            
         }
 
         private void exit(object sender, EventArgs e)
@@ -67,6 +67,30 @@ namespace Exploro_App
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            txtPassword.UseSystemPasswordChar = true;
+            pictureBox7.Visible = true;
+            pictureBox6.Visible = false;
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            txtPassword.UseSystemPasswordChar = false;
+            pictureBox7.Visible = false;
+            pictureBox6.Visible = true;
         }
     }
 }

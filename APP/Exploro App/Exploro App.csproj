@@ -101,5 +101,14 @@
   <ItemGroup>
     <None Include="Resources\LogoV3-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evevis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evevis1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyeinvis.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
