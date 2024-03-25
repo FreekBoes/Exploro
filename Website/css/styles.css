@@ -4317,6 +4317,10 @@ fieldset:disabled .btn {
     white-space: nowrap;
 }
 
+.navbar-brand img {
+    height: 75px;
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
     color: var(--bs-navbar-brand-hover-color);
@@ -4335,6 +4339,7 @@ fieldset:disabled .btn {
     margin-bottom: 0;
     list-style: none;
 }
+
 
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
@@ -4461,6 +4466,8 @@ fieldset:disabled .btn {
         padding: 0;
         overflow-y: visible;
     }
+
+
 }
 
 @media (min-width: 768px) {
@@ -4518,6 +4525,9 @@ fieldset:disabled .btn {
         padding: 0;
         overflow-y: visible;
     }
+
+
+
 }
 
 @media (min-width: 992px) {
@@ -4574,6 +4584,10 @@ fieldset:disabled .btn {
         flex-grow: 0;
         padding: 0;
         overflow-y: visible;
+    }
+
+    .navbar-brand img {
+        height: 100px;
     }
 }
 
