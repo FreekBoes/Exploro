@@ -18,3 +18,13 @@ C:\ProfSkills Project\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.Gener
 C:\ProfSkills Project\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.CoreCompileInputs.cache
 C:\ProfSkills Project\Exploro\APP\Exploro App\obj\Debug\Exploro App.exe
 C:\ProfSkills Project\Exploro\APP\Exploro App\obj\Debug\Exploro App.pdb
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\bin\Debug\Exploro App.exe.config
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\bin\Debug\Exploro App.exe
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\bin\Debug\Exploro App.pdb
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.AssemblyReference.cache
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Form1.resources
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Properties.Resources.resources
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.GenerateResource.cache
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.CoreCompileInputs.cache
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro App.exe
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro App.pdb
