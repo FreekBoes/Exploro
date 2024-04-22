@@ -36,3 +36,6 @@ create table leaderboard(
 		FOREIGN KEY (userId)
 		REFERENCES exploro.users(userId)
     );
+    
+
+
