@@ -32,6 +32,7 @@ namespace Exploro_App
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             Close();
+            Application.Exit();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
