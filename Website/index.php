@@ -32,12 +32,16 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item"><a href="Informatie-App.html" class="nav-link">Over app</a></li>
-                    <li class="nav-item"><a class="nav-link">Leaderboard</a></li>
+
+                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="aboutus.html" class="nav-link">Over ons</a></li>
 
+                    <li class="nav-item"><a href="Informatie-App.html" class="nav-link">Over app</a></li>
+
+                    <li class="nav-item"><a class="nav-link">Leaderboard</a></li>
+
                 </ul>
-                <button class="ms-lg-4 button"><a href="login.html" class="text-white download">Download</a></button>
+                <button class="ms-lg-4 button nav-item"><a href="login.php" class="nav-link download">Download</a></button>
 
             </div>
         </div>

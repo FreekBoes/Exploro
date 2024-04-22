@@ -2,31 +2,39 @@
     include "./dbh.php";
     
     $name = $_POST['name'];
-    $eMail = $_POST['email'];
+    $email = $_POST['email'];
     $password = $_POST['password'];
 
     $name = mysqli_real_escape_string($conn,$name);
-    $eMail = mysqli_real_escape_string($conn,$eMail);
+    $email = mysqli_real_escape_string($conn,$email);
     $password = mysqli_real_escape_string($conn,$password);
-    $validemail = filter_var($eMail, FILTER_VALIDATE_EMAIL);
+    $validemail = filter_var($email, FILTER_VALIDATE_EMAIL);
     if ($validemail){
-    $sql = "SELECT * FROM `users` WHERE `eMail` = '$eMail' LIMIT 1";
+    $sql = "SELECT * FROM `users` WHERE `eMail` = '$email' LIMIT 1";
     $result = mysqli_query($conn,$sql);
     $row = mysqli_fetch_array($result);
     if ($row) {
         echo json_encode('error');
         exit();
+        
     }
-            
-    echo json_encode('success');
-    }
+        
+    
     else{
-        exit();
-    }
+        echo json_encode('success');
+        
+
     $password = password_hash($password, PASSWORD_DEFAULT);
     $sql = "INSERT INTO `users` (`name`, `eMail`, `password`)
     VALUES
-    ('$name', '$eMail', '$password')";
+    ('$name', '$email', '$password')";
     mysqli_query($conn,$sql);
+    
+    session_start();
+    $_SESSION['eMail'] = $email;
 
+    }
+    }
+
+ 
 ?>
