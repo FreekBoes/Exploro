@@ -18,7 +18,7 @@ function login() {
 
                 } else {
                     alert('Successvol ingelogd.');
-                    window.location.href = '/download.html';
+                    window.location.href = '/download.php';
                 }
 
             }
@@ -53,7 +53,7 @@ function createUser() {
                     alert('Email bestaat al!')
                 } else {
                     alert('Account succesvol aangemaakt.');
-                    window.location.href = '/login.html';
+                    window.location = '/index.php';
                 }
             }
         });
