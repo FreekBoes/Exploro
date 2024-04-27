@@ -1,3 +1,9 @@
+<?php
+ session_start();
+    if (!isset($_SESSION["eMail"])) {
+        header("Location: login.php");
+}
+ ?>
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -17,7 +23,7 @@
     <!-- SimpleLightbox plugin CSS-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles2.css" rel="stylesheet" />
+    <link href="css/styles3.css" rel="stylesheet" />
     <link href="main.css" rel="stylesheet" />
 </head>
 
@@ -32,14 +38,10 @@
 
                     <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="aboutus.html" class="nav-link">Over ons</a></li>
-<<<<<<< HEAD
-                    <li class="nav-item"><a href="scoreboard.html" class="nav-link">Leaderboard</a></li>
-=======
 
                     <li class="nav-item"><a href="Informatie-App.html" class="nav-link">Over app</a></li>
 
                     <li class="nav-item"><a class="nav-link">Leaderboard</a></li>
->>>>>>> 3df903a110a8b9680867197cac79855ff917a177
 
                 </ul>
                 <button class="ms-lg-4 button nav-item"><a href="login.php" class="nav-link download">Download</a></button>
@@ -47,45 +49,37 @@
             </div>
         </div>
     </nav>
-    <!--masthead-->
+    <!-- Masthead-->
     <header class="masthead">
         <div class="container px-4 px-lg-5 h-100">
             <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-8 align-self-end">
-                    <h1 class="text-white font-weight-bold">Informatie over de app!</h1>
+                    <h1 class="text-white font-weight-bold">Klaar om de App te downloaden?</h1>
                     <hr class="divider" />
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 mb-5">Exploro is een app/game waarbij de gebruiker verschillende games kan spelen rond toeristische en culturele invloed op locaties in de wereld!</p>
+                    <p class="text-white-75 mb-5">Zodra je bent ingelogd kan je de applicatie downloaden, ben je niet ingelogd? Zorg er dan even voor dat je ingelogd bent!</p>
                     <a class="btn btn-primary btn-xl" href="#about">Lees meer</a>
                 </div>
             </div>
         </div>
     </header>
-    <!--about-->
-    <section class="page-section bg-primary" id="about">
+    <!-- Services-->
+    <section class="page-section" id="about">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="text-white mt-0">About app</h2>
+                    <h2 class="text-black mt-0">Download hier!</h2>
                     <hr class="divider divider-light" />
-                    <p class="text-white-75 mb-4">Welkom bij Exploro - de spannende nieuwe app die het leren van aardrijkskunde omtovert in een leuk en uitdagend spel! Verken de wereld op een boeiende manier terwijl je jouw kennis van geografie test en verbetert.</p>
+                    <p class="text-black-75 mb-2">Ben je klaar om de wereld in te duiken waarbij het verschil kunt leren tussen de culturele en toeristische invloeden op de wereld?</p>
+                    <p class="text-black-75 mb-4">Klik dan hieronder op de download knop!</p>
+                    <a class="btn btn-primary btn-xl" href="test.txt" download="test">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="page-section" id="services">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="text-black mt-0">Extra info</h2>
-                    <hr class="divider divider-light" />
-                    <p class="text-black-75 mb-4">Exploro is ontwikkeld door een team van gepassioneerde programmeurs bestaande uit Freek, Mathias, Lander en Jelle. Deze getalenteerde individuen hebben samengewerkt om deze app tot leven te brengen. Met hun expertise en toewijding hebben ze Exploro gemaakt tot wat het nu is: een innovatieve en boeiende app voor verkenning en ontdekking.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Footer-->
     <footer class="bg-light py-5">
         <div class="container px-4 px-lg-5">
             <div class="small text-center text-muted">Copyright &copy; 2024 - Exploro</div>
@@ -102,7 +96,6 @@
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-
 </body>
 
 </html>

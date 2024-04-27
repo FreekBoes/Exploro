@@ -1,3 +1,6 @@
+<?php
+  session_start();
+ ?>
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -29,12 +32,21 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
+<<<<<<< HEAD:Website/index.html
                     <li class="nav-item"><a href="Informatie-App.html" class="nav-link">Over app</a></li>
                     <li class="nav-item"><a href="scoreboard.html" class="nav-link">Leaderboard</a></li>
+=======
+
+                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+>>>>>>> 3df903a110a8b9680867197cac79855ff917a177:Website/index.php
                     <li class="nav-item"><a href="aboutus.html" class="nav-link">Over ons</a></li>
 
+                    <li class="nav-item"><a href="Informatie-App.html" class="nav-link">Over app</a></li>
+
+                    <li class="nav-item"><a class="nav-link">Leaderboard</a></li>
+
                 </ul>
-                <button class="ms-lg-4 button"><a href="login.html" class="text-white download">Download</a></button>
+                <button class="ms-lg-4 button nav-item"><a href="login.php" class="nav-link download">Download</a></button>
 
             </div>
         </div>
@@ -48,7 +60,7 @@
                     <hr class="divider" />
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 mb-5">Exploro is een project waarbij wij voor Proffessional skills een game maken waarbij de gebruiker verschillende games kan spelen rond toeristische en culturele invloed op locaties in de wereld!</p>
+                    <p class="text-white-75 mb-5">Exploro is een project waarbij wij voor Professional skills een game maken waarbij de gebruiker verschillende games kan spelen rond toeristische en culturele invloed op locaties in de wereld!</p>
                     <a class="btn btn-primary btn-xl" href="#about">Lees meer</a>
                 </div>
             </div>

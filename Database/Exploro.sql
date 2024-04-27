@@ -9,14 +9,14 @@ Drop table if exists users;
 use exploro;
 
 CREATE TABLE exploro.users (
-	userId int PRIMARY KEY,
+	userId int PRIMARY KEY auto_increment,
     name varchar(50) NOT NULL,
     eMail varchar(50) not null,
-    password varchar(50) not null
+    password varchar(400) not null
 );
 
 create table exploro.scores(
-	scoresId int primary key,
+	scoresId int primary key auto_increment,
     scores int not null,
     tijd time not null,
 	userId int NOT NULL,
@@ -26,7 +26,7 @@ create table exploro.scores(
 		REFERENCES exploro.users(userId)
 );
 create table leaderboard(
-	leaderboardId int not null primary key,
+	leaderboardId int primary key auto_increment,
 	userId int not null,
     scoresId int not null,
 	CONSTRAINT FK_leaderboard_scores
@@ -36,3 +36,6 @@ create table leaderboard(
 		FOREIGN KEY (userId)
 		REFERENCES exploro.users(userId)
     );
+    
+
+
