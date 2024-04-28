@@ -8,11 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using MySql.Data.MySqlClient;
+
 
 namespace Exploro_App
 {
     public partial class Login : Form
     {
+        string server = "localhost";
+        string uid = "root";
+        string password = "1234";
+        string database = "exploro";
+        
+
+
         public Point mouselocation;
         public Login()
         {
@@ -72,10 +81,33 @@ namespace Exploro_App
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            Form2 form = new Form2();
-            form.Show();
-            this.Close();
+            
+            string constring = "server=" + server + ";uid=" + uid + ";pwd=" + password + ";database=" + database;
+            MySqlConnection connection = new MySqlConnection(constring);
+            connection.Open();
+            string query_email = "SELECT eMail,password FROM exploro.users;";
+            MySqlCommand cmd = new MySqlCommand(query_email,connection);
+
+            MySqlDataReader datareader = cmd.ExecuteReader();
+
+            while (datareader.Read())
+            {
+
+                if (txtUserName.Text == Convert.ToString(datareader["eMail"]) && txtPassword.Text == Convert.ToString(datareader["password"]))
+                {
+                    Form2 form = new Form2();
+                    form.Show();
+                    this.Close();
+                }
+                else 
+                {
+                    MessageBox.Show("Verkeerd wachtwoord of email address","FOUT WACHTWOORD");
+                }
+            }
+
         }
+
+
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
