@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|c:\\school\\2023-2024\\professional skills\\group_project\\exploro_repo\\exploro\\app\\exploro app\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\gamemode 2\\level1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:gamemode 2\\level1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\gamemode 2\\level1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,14 +44,14 @@
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAIwEsAAAAMAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAIwE0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T16:28:26.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Level1.cs [Design]",
               "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 2\\Level1.cs",
               "RelativeDocumentMoniker": "Gamemode 2\\Level1.cs",
@@ -75,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Level1.cs",
               "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 2\\Level1.cs",
               "RelativeDocumentMoniker": "Gamemode 2\\Level1.cs",
@@ -88,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Form5.cs [Design]",
               "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Form5.cs",
               "RelativeDocumentMoniker": "Form5.cs",
@@ -100,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form5.cs",
               "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Form5.cs",
               "RelativeDocumentMoniker": "Form5.cs",

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.Web.UI.HtmlControls;
+using System.IO;
 
 namespace Exploro_App
 {
@@ -73,7 +74,9 @@ namespace Exploro_App
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Process.Start("../../Website/scorebord.html");
+            string filePath = Path.GetFullPath("../../Website/scoreboard.html");
+            Process.Start(filePath);
+
         }
     }
 }
