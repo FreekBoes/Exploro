@@ -64,3 +64,48 @@ C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\E
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.SuggestedBindingRedirects.cache
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro App.exe.config
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro .3977CA49.Up2Date
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\Exploro App.exe.config
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\Exploro App.exe
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\Exploro App.pdb
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\BouncyCastle.Cryptography.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\Google.Protobuf.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\K4os.Compression.LZ4.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\K4os.Hash.xxHash.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\MySql.Data.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Buffers.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.IO.Pipelines.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Memory.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Numerics.Vectors.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\ZstdSharp.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\BouncyCastle.Cryptography.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\Google.Protobuf.pdb
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\Google.Protobuf.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\K4os.Compression.LZ4.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\K4os.Hash.xxHash.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\MySql.Data.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Buffers.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.IO.Pipelines.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Memory.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Numerics.Vectors.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.AssemblyReference.cache
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Login.resources
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Form2.resources
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Properties.Resources.resources
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.GenerateResource.cache
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.CoreCompileInputs.cache
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.CopyComplete
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\obj\Debug\Exploro App.exe
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\obj\Debug\Exploro App.pdb
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\BCrypt.Net-Next.dll
+D:\school_materiaal\ITF\prof skills\project\Exploro\APP\Exploro App\bin\Debug\BCrypt.Net-Next.xml
