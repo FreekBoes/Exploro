@@ -64,3 +64,9 @@ C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\E
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.SuggestedBindingRedirects.cache
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro App.exe.config
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro .3977CA49.Up2Date
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Level_Gamode_2_level.resources
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_2.Level1.resources
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_2.Level2.resources
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_2.Level3.resources
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_2.level4.resources
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_2.level5.resources

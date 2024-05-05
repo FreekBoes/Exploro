@@ -8,14 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Web.UI.HtmlControls;
 
 namespace Exploro_App
 {
     public partial class Form2 : Form
     {
         public Point mouselocation;
-        public Form2()
+        private Constructor constructor;
+        public Form2(Constructor constructor)
         {
+            this.constructor = constructor;
             InitializeComponent();
         }
 
@@ -52,6 +55,25 @@ namespace Exploro_App
                 mousePose.Offset(mouselocation.X, mouselocation.Y);
                 Location = mousePose;
             }
+        }
+
+        private void btnGamemode2_Click(object sender, EventArgs e)
+        {
+            Level_Gamode_2_level form = new Level_Gamode_2_level(constructor);
+            form.Show();
+            this.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login login = new Login();
+            login.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Process.Start("../../Website/scorebord.html");
         }
     }
 }
