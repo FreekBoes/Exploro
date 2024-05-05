@@ -19,7 +19,9 @@ namespace Exploro_App
         string uid = "root";
         string password = "1234";
         string database = "exploro";
-        
+        string email_var = "";
+        Constructor constructor = new Constructor();
+
 
 
         public Point mouselocation;
@@ -40,7 +42,7 @@ namespace Exploro_App
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void exit(object sender, EventArgs e)
@@ -61,12 +63,12 @@ namespace Exploro_App
 
         private void mouse_Down(object sender, MouseEventArgs e)
         {
-            mouselocation = new Point(-e.X, -e.Y); 
+            mouselocation = new Point(-e.X, -e.Y);
         }
 
         private void mouse_Move(object sender, MouseEventArgs e)
         {
-            if(e.Button == MouseButtons.Left)
+            if (e.Button == MouseButtons.Left)
             {
                 Point mousePose = Control.MousePosition;
                 mousePose.Offset(mouselocation.X, mouselocation.Y);
@@ -81,13 +83,11 @@ namespace Exploro_App
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            
             string constring = "server=" + server + ";uid=" + uid + ";pwd=" + password + ";database=" + database;
             MySqlConnection connection = new MySqlConnection(constring);
             connection.Open();
             string query_email = "SELECT eMail,password FROM exploro.users;";
-            MySqlCommand cmd = new MySqlCommand(query_email,connection);
-
+            MySqlCommand cmd = new MySqlCommand(query_email, connection);
             MySqlDataReader datareader = cmd.ExecuteReader();
 
             while (datareader.Read())
@@ -95,19 +95,18 @@ namespace Exploro_App
 
                 if (txtUserName.Text == Convert.ToString(datareader["eMail"]) && txtPassword.Text == Convert.ToString(datareader["password"]))
                 {
-                    Form2 form = new Form2();
+                    constructor.emailInVar(Convert.ToString(datareader["eMail"]));
+                    Form2 form = new Form2(constructor);
                     form.Show();
                     this.Close();
                 }
-                else 
+                else
                 {
-                    MessageBox.Show("Verkeerd wachtwoord of email address","FOUT WACHTWOORD");
+                    MessageBox.Show("Verkeerd wachtwoord of email address", "FOUT WACHTWOORD");
                 }
             }
 
         }
-
-
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {

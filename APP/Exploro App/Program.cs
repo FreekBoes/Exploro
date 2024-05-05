@@ -16,6 +16,9 @@ namespace Exploro_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Login login = new Login();
+            //login.Show();
+
             Login login = new Login();
             login.Show();
             Application.Run();
