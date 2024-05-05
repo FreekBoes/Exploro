@@ -1,3 +1,9 @@
+<?php
+  session_start();
+
+include $_SERVER['DOCUMENT_ROOT'].'/includes/dbh.php';
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,11 +35,16 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+
+                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="aboutus.html" class="nav-link">Over ons</a></li>
+
                     <li class="nav-item"><a href="Informatie-App.html" class="nav-link">Over app</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="scoreboard.php">Leaderboard</a></li>
+
                 </ul>
-                <button class="ms-lg-4 button">Download</button>
+                <button class="ms-lg-4 button nav-item"><a href="download.php" class="nav-link download">Download</a></button>
             </div>
         </div>
     </nav>
@@ -60,15 +71,48 @@
                     <div class="card-header">
                         Leaderboard
                     </div>
-                    <div class="card-body">
-                        <!-- Your leaderboard content goes here -->
-                        <!-- Example: -->
-                        <ol>
-                            <li>Player 1 - 100 points</li>
-                            <li>Player 2 - 90 points</li>
-                            <!-- Add more list items as needed -->
-                        </ol>
+
+                    <div class="TimeTable">
+                        <table class="table" id="example">
+
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Place</th>
+                                    <th scope="col">Username</th>
+                                    <th scope="col">Score</th>
+                                </tr>
+                            </thead>
+                            <?php
+          $sql = "SELECT u.name AS UserName, MAX(s.scores) AS UserScore
+        FROM `users`u
+        INNER JOIN `scores` s ON u.userId = s.userId
+        INNER JOIN `leaderboard` l ON s.scoresId = l.scoresId
+        GROUP BY u.`userId`
+        ORDER BY MAX(s.`scores`) DESC;";
+
+         $result = mysqli_query($conn,$sql);
+            $counter = 1;
+         while ($row = mysqli_fetch_array($result))
+
+         {
+            
+
+            ?>
+                            <tbody>
+                                <tr>
+                                    <td><?php echo $counter ?></td>
+                                    <td><?php echo $row['UserName'] ?></td>
+                                    <td><?php echo $row['UserScore']?></td>
+                                </tr>
+                                <?php
+         $counter++;
+         }
+           ?>
+                            </tbody>
+                        </table>
                     </div>
+
+
                 </div>
             </div>
         </div>
