@@ -29,6 +29,19 @@
     VALUES
     ('$name', '$email', '$password')";
     mysqli_query($conn,$sql);
+        
+    $userId = mysqli_insert_id($conn);
+
+        // Insert into scores table
+    $sql2 = "INSERT INTO `scores` (`scores`, `userId`) VALUES ('0', '$userId')";
+    mysqli_query($conn, $sql2);
+    
+    $scoresId = mysqli_insert_id($conn);
+        
+        // Insert into leaderboard table
+    $sql3 = "INSERT INTO `leaderboard` (`userId`, `scoresId`) VALUES ('$userId', '$scoresId')";
+    mysqli_query($conn, $sql3);
+  
     
     session_start();
     $_SESSION['eMail'] = $email;

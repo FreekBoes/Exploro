@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using MySql.Data.MySqlClient;
+using BCrypt.Net;
 
 
 namespace Exploro_App
@@ -83,30 +84,38 @@ namespace Exploro_App
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
+
             string constring = "server=" + server + ";uid=" + uid + ";pwd=" + password + ";database=" + database;
             MySqlConnection connection = new MySqlConnection(constring);
             connection.Open();
-            string query_email = "SELECT eMail,password FROM exploro.users;";
-            MySqlCommand cmd = new MySqlCommand(query_email, connection);
+            string query_email = "SELECT eMail,password FROM exploro.users WHERE eMail = @email;";
+            MySqlCommand cmd = new MySqlCommand(query_email,connection);
+            cmd.Parameters.AddWithValue("@email", txtUserName.Text);
+
             MySqlDataReader datareader = cmd.ExecuteReader();
 
-            while (datareader.Read())
+            if (datareader.Read())
             {
-
-                if (txtUserName.Text == Convert.ToString(datareader["eMail"]) && txtPassword.Text == Convert.ToString(datareader["password"]))
+                string hashedPassword = Convert.ToString(datareader["password"]);
+                if (BCrypt.Net.BCrypt.Verify(txtPassword.Text, hashedPassword))
                 {
                     constructor.emailInVar(Convert.ToString(datareader["eMail"]));
-                    Form2 form = new Form2(constructor);
+                    Form2 form = new Form2();
                     form.Show();
                     this.Close();
                 }
-                else
+                else 
                 {
-                    MessageBox.Show("Verkeerd wachtwoord of email address", "FOUT WACHTWOORD");
+                    MessageBox.Show("Verkeerd wachtwoord of email address","FOUT WACHTWOORD");
                 }
             }
-
+            else
+            {
+                MessageBox.Show("Email bestaat niet", "FOUT EMAIL");
+            }
+            connection.Close();
         }
+    
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
