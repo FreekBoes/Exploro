@@ -41,10 +41,10 @@
 
                     <li class="nav-item"><a href="Informatie-App.html" class="nav-link">Over app</a></li>
 
-                    <li class="nav-item"><a class="nav-link">Leaderboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="scoreboard.php">Leaderboard</a></li>
 
                 </ul>
-                <button class="ms-lg-4 button nav-item"><a href="login.php" class="nav-link download">Download</a></button>
+                <button class="ms-lg-4 button nav-item"><a href="download.php" class="nav-link download">Download</a></button>
 
             </div>
         </div>
