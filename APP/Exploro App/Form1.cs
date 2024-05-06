@@ -54,7 +54,7 @@ namespace Exploro_App
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://youtu.be/xvFZjo5PgG0?si=qZYwZ1Dgqiw_5IYS");
+            Process.Start("https://www.exploro.com/signup.html");
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
