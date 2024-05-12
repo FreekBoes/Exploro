@@ -100,7 +100,7 @@ namespace Exploro_App
                 if (BCrypt.Net.BCrypt.Verify(txtPassword.Text, hashedPassword))
                 {
                     constructor.emailInVar(Convert.ToString(datareader["eMail"]));
-                    Form2 form = new Form2();
+                    Form2 form = new Form2(constructor);
                     form.Show();
                     this.Close();
                 }

@@ -73,7 +73,7 @@
                     <hr class="divider divider-light" />
                     <p class="text-black-75 mb-2">Ben je klaar om de wereld in te duiken waarbij het verschil kunt leren tussen de culturele en toeristische invloeden op de wereld?</p>
                     <p class="text-black-75 mb-4">Klik dan hieronder op de download knop!</p>
-                    <a class="btn btn-primary btn-xl" href="test.txt" download="test">Download</a>
+                    <a class="btn btn-primary btn-xl" href="Setup_exploro/Debug/Setup_exploro.msi" download="Setup_exploro.msi">Download</a>
                 </div>
             </div>
         </div>
