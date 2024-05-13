@@ -23,6 +23,10 @@ namespace Exploro_App
             InitializeComponent();
         }
 
+        public Form2()
+        {
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -77,6 +81,13 @@ namespace Exploro_App
             string filePath = Path.GetFullPath("../../Website/scoreboard.html");
             Process.Start(filePath);
 
+        }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Close();
         }
     }
 }

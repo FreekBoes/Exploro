@@ -121,3 +121,58 @@ D:\school_materiaal\ITF\prof skills\project2\Exploro\APP\Exploro App\obj\Debug\E
 D:\school_materiaal\ITF\prof skills\project2\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.CopyComplete
 D:\school_materiaal\ITF\prof skills\project2\Exploro\APP\Exploro App\obj\Debug\Exploro App.exe
 D:\school_materiaal\ITF\prof skills\project2\Exploro\APP\Exploro App\obj\Debug\Exploro App.pdb
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\Exploro App.exe.config
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\Exploro App.exe
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\Exploro App.pdb
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\BCrypt.Net-Next.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\BouncyCastle.Cryptography.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\Google.Protobuf.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\K4os.Compression.LZ4.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\K4os.Hash.xxHash.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\MySql.Data.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Buffers.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.IO.Pipelines.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Memory.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Numerics.Vectors.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\ZstdSharp.dll
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\BCrypt.Net-Next.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\BouncyCastle.Cryptography.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\Google.Protobuf.pdb
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\Google.Protobuf.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\K4os.Compression.LZ4.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\K4os.Hash.xxHash.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\MySql.Data.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Buffers.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.IO.Pipelines.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Memory.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Numerics.Vectors.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.AssemblyReference.cache
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Login.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Form2.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Level_Gamode_2_level.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_2.Level1.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_2.Level2.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_2.Level3.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_2.level4.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_2.level5.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Properties.Resources.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.GenerateResource.cache
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.CoreCompileInputs.cache
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.CopyComplete
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro App.exe
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro App.pdb
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Form3.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_1.Level_3.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_1.Level2.resources
+C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_1.Level3.resources

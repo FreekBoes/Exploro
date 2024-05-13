@@ -84,12 +84,11 @@ namespace Exploro_App
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-
             string constring = "server=" + server + ";uid=" + uid + ";pwd=" + password + ";database=" + database;
             MySqlConnection connection = new MySqlConnection(constring);
             connection.Open();
             string query_email = "SELECT eMail,password FROM exploro.users WHERE eMail = @email;";
-            MySqlCommand cmd = new MySqlCommand(query_email,connection);
+            MySqlCommand cmd = new MySqlCommand(query_email, connection);
             cmd.Parameters.AddWithValue("@email", txtUserName.Text);
 
             MySqlDataReader datareader = cmd.ExecuteReader();
@@ -104,9 +103,9 @@ namespace Exploro_App
                     form.Show();
                     this.Close();
                 }
-                else 
+                else
                 {
-                    MessageBox.Show("Verkeerd wachtwoord of email address","FOUT WACHTWOORD");
+                    MessageBox.Show("Verkeerd wachtwoord of email address", "FOUT WACHTWOORD");
                 }
             }
             else
@@ -115,7 +114,7 @@ namespace Exploro_App
             }
             connection.Close();
         }
-    
+
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
