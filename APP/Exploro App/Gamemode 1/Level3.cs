@@ -66,7 +66,7 @@ namespace Exploro_App.Gamemode_1
                 if (checkLinks.Checked == true)
                 {
                     MessageBox.Show("Juist");
-                    punten = punten + 1;
+                    connection();
                 }
                 else if (checkRechts.Checked == true)
                 {
@@ -94,7 +94,7 @@ namespace Exploro_App.Gamemode_1
                 else if (checkRechts.Checked == true)
                 {
                     MessageBox.Show("Juist!");
-                    punten = punten + 1;
+                    connection();
                 }
                 else
                 {
@@ -112,7 +112,7 @@ namespace Exploro_App.Gamemode_1
                 if (checkLinks.Checked == true)
                 {
                     MessageBox.Show("Juist");
-                    punten = punten + 1;
+                    connection();
                 }
                 else if (checkRechts.Checked == true)
                 {
@@ -139,7 +139,7 @@ namespace Exploro_App.Gamemode_1
                 else if (checkRechts.Checked == true)
                 {
                     MessageBox.Show("Juist!");
-                    punten = punten + 1;
+                    connection();
                 }
                 else
                 {
@@ -157,7 +157,7 @@ namespace Exploro_App.Gamemode_1
                 if (checkLinks.Checked == true)
                 {
                     MessageBox.Show("Juist");
-                    punten = punten + 1;
+                    connection();
                 }
                 else if (checkRechts.Checked == true)
                 {
@@ -208,6 +208,13 @@ namespace Exploro_App.Gamemode_1
             cmd_enable_safe_updates.ExecuteNonQuery();
             connection.Close();
 
+        }
+
+        private void Back(object sender, EventArgs e)
+        {
+            this.Close();
+            Form3 form = new Form3(constructor);
+            form.Show();
         }
     }
 }

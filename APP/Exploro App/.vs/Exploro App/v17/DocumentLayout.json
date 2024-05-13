@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|c:\\school\\2023-2024\\professional skills\\group_project\\exploro_repo\\exploro\\app\\exploro app\\gamemode 1\\level1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:gamemode 1\\level1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|c:\\school\\2023-2024\\professional skills\\group_project\\exploro_repo\\exploro\\app\\exploro app\\gamemode 1\\level3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:gamemode 1\\level3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\gamemode 2\\level1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:gamemode 2\\level1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|c:\\school\\2023-2024\\professional skills\\group_project\\exploro_repo\\exploro\\app\\exploro app\\gamemode 1\\level3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:gamemode 1\\level3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|c:\\school\\2023-2024\\professional skills\\group_project\\exploro_repo\\exploro\\app\\exploro app\\gamemode 1\\level1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:gamemode 1\\level1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|c:\\school\\2023-2024\\professional skills\\group_project\\exploro_repo\\exploro\\app\\exploro app\\gamemode 1\\level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:gamemode 1\\level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|c:\\school\\2023-2024\\professional skills\\group_project\\exploro_repo\\exploro\\app\\exploro app\\gamemode 1\\level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B0827D34-DFFB-42FA-884F-150D787A48FB}|Exploro App.csproj|solutionrelative:gamemode 1\\level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Level1.cs",
-              "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level1.cs",
-              "RelativeDocumentMoniker": "Gamemode 1\\Level1.cs",
-              "ToolTip": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level1.cs",
-              "RelativeToolTip": "Gamemode 1\\Level1.cs",
-              "ViewState": "AQIAAKMAAAAAAAAAAAAqwK8AAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "Level3.cs",
+              "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level3.cs",
+              "RelativeDocumentMoniker": "Gamemode 1\\Level3.cs",
+              "ToolTip": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level3.cs",
+              "RelativeToolTip": "Gamemode 1\\Level3.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAawEQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T08:30:13.503Z",
+              "WhenOpened": "2024-05-13T09:11:05.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Level1.cs [Design]",
-              "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level1.cs",
-              "RelativeDocumentMoniker": "Gamemode 1\\Level1.cs",
-              "ToolTip": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level1.cs [Design]",
-              "RelativeToolTip": "Gamemode 1\\Level1.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Level3.cs [Design]",
+              "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level3.cs",
+              "RelativeDocumentMoniker": "Gamemode 1\\Level3.cs",
+              "ToolTip": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level3.cs [Design]",
+              "RelativeToolTip": "Gamemode 1\\Level3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T08:30:04.179Z",
+              "WhenOpened": "2024-05-13T09:10:49.301Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Level1.cs",
-              "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 2\\Level1.cs",
-              "RelativeDocumentMoniker": "Gamemode 2\\Level1.cs",
-              "ToolTip": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 2\\Level1.cs",
-              "RelativeToolTip": "Gamemode 2\\Level1.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAswEwAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Level2.cs",
+              "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level2.cs",
+              "RelativeDocumentMoniker": "Gamemode 1\\Level2.cs",
+              "ToolTip": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level2.cs",
+              "RelativeToolTip": "Gamemode 1\\Level2.cs",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAawPcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T09:27:07.153Z",
+              "WhenOpened": "2024-05-13T09:09:35.729Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Level2.cs [Design]",
+              "DocumentMoniker": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level2.cs",
+              "RelativeDocumentMoniker": "Gamemode 1\\Level2.cs",
+              "ToolTip": "C:\\School\\2023-2024\\Professional skills\\Group_project\\Exploro_repo\\Exploro\\APP\\Exploro App\\Gamemode 1\\Level2.cs [Design]",
+              "RelativeToolTip": "Gamemode 1\\Level2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T09:09:01.396Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
