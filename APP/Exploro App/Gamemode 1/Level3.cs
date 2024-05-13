@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,11 @@ namespace Exploro_App.Gamemode_1
 {
     public partial class Level3 : Form
     {
-        public Level3()
+        private Constructor constructor;
+        public Level3(Constructor constructor)
         {
             InitializeComponent();
+            this.constructor = constructor;
         }
 
         public Point mouselocation;
@@ -167,6 +170,43 @@ namespace Exploro_App.Gamemode_1
                 MessageBox.Show("Je hebt " + Convert.ToString(punten) + " van de 5 vragen juist");
                 this.Close();
             }
+
+        }
+
+        public void connection()
+        {
+            Constructor construcor = new Constructor();
+            string server = "localhost";
+            string uid = "root";
+            string password = "1234";
+            string database = "exploro";
+            string VarEmail = "";
+
+            string constring = "server=" + server + ";uid=" + uid + ";pwd=" + password + ";database=" + database;
+
+            MySqlConnection connection = new MySqlConnection(constring);
+            connection.Open();
+
+            VarEmail = constructor.emailDoorgeven();
+
+            // Disable SQL_SAFE_UPDATES
+            string query_disable_safe_updates = "SET SQL_SAFE_UPDATES = 0";
+            MySqlCommand cmd_disable_safe_updates = new MySqlCommand(query_disable_safe_updates, connection);
+            cmd_disable_safe_updates.ExecuteNonQuery();
+
+            // Perform the UPDATE operation
+            string query_email = "UPDATE exploro.scores " +
+                                      "INNER JOIN exploro.users ON scores.userId = users.userId " +
+                                      "SET scores.scores = scores.scores + 1 " +
+                                      "WHERE users.eMail = '" + VarEmail + "'";
+            MySqlCommand cmd = new MySqlCommand(query_email, connection);
+            cmd.ExecuteNonQuery();
+
+            // Enable SQL_SAFE_UPDATES
+            string query_enable_safe_updates = "SET SQL_SAFE_UPDATES = 1";
+            MySqlCommand cmd_enable_safe_updates = new MySqlCommand(query_enable_safe_updates, connection);
+            cmd_enable_safe_updates.ExecuteNonQuery();
+            connection.Close();
 
         }
     }

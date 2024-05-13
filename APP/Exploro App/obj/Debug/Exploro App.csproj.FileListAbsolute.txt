@@ -61,8 +61,6 @@ C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\E
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\bin\Debug\System.Numerics.Vectors.xml
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro App.csproj.SuggestedBindingRedirects.cache
-C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro App.exe.config
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro .3977CA49.Up2Date
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Level_Gamode_2_level.resources
 C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_2.Level1.resources
@@ -176,3 +174,9 @@ C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Form
 C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_1.Level_3.resources
 C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_1.Level2.resources
 C:\ProfSkills Project\Exploro\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_1.Level3.resources
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\bin\Debug\BCrypt.Net-Next.dll
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\bin\Debug\BCrypt.Net-Next.xml
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Form3.resources
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_1.Level_3.resources
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_1.Level2.resources
+C:\School\2023-2024\Professional skills\Group_project\Exploro_repo\Exploro\APP\Exploro App\obj\Debug\Exploro_App.Gamemode_1.Level3.resources

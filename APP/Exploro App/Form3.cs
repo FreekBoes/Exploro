@@ -15,8 +15,9 @@ namespace Exploro_App
     {
         private Constructor constructor;
         public Point mouselocation;
-        public Form3()
+        public Form3(Constructor constructor)
         {
+            this.constructor = constructor;
             InitializeComponent();
         }
 
@@ -49,19 +50,19 @@ namespace Exploro_App
 
         private void btnlevel1_Click(object sender, EventArgs e)
         {
-            Level_3 level1 = new Level_3();
+            Level_3 level1 = new Level_3(constructor);
             level1.Show();
         }
 
         private void btnLevel2_Click(object sender, EventArgs e)
         {
-            Level2 level2 = new Level2();
+            Level2 level2 = new Level2(constructor);
             level2.Show();
         }
 
         private void btnLevel3_Click(object sender, EventArgs e)
         {
-            Level3 level3 = new Level3();
+            Level3 level3 = new Level3(constructor);
             level3.Show();
         }
 
