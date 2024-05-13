@@ -166,4 +166,49 @@
   <data name="pexels-yogendras31-2635390" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-yogendras31-2635390.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="11links" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11links.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12links" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12links.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13rechts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13rechts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14links" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14links.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15rechts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15rechts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21links" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21links.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22rechts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22rechts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="23rechts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23rechts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="24links" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24links.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="25links" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25links.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="31links" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31links.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="32rechts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32rechts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="33links" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\33links.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34rechts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34rechts.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35links" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35links.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
